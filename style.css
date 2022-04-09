@@ -1,0 +1,707 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+  /*  font-family: 'Open Sans', sans-serif;
+
+   	 font-family: 'Roboto', sans-serif;*/
+   	 
+   	 /*font-family: 'Ultra', serif;*/
+ 
+ /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+ 		General CSS
+ =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+ *{
+ 	margin: 0;
+ 	padding: 0;
+ }
+ body{
+ 	
+ 	font-family: 'Open Sans', sans-serif;
+ }
+ img{
+ 	width: 100%;
+ 	height: auto;
+ }
+ ul{
+ 	list-style: none;
+ }
+ a{
+ 	text-decoration: none;
+ }
+ h1{
+ 	font-size: 45px;
+ }
+  h2{
+ 	font-size: 40px;
+ }
+  h3{
+ 	font-size: 35px;
+ }
+  h4{
+ 	font-size: 30px;
+ }
+ p{
+ 	font-size: 15px;
+ }
+ /* ----------------- social icons start  */
+#social-icons{
+    position: fixed;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%)
+}
+.links{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+.links li{}
+.links li a{
+    display: block;
+    padding: 10px 15px;
+    font-size: 30px;
+    color: orange;
+}
+.links li a img{
+    width: 40px;
+    height: 40px;
+    transition: all .5s;
+}
+.links li a img:hover{
+    width: 35px;
+    height: 35px;
+}
+.icons img:hover{
+    transform: scale(1.2)
+}
+
+/* ----------------- social icons end  */
+/* --------------------- header start  */
+ /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+ 		Header CSS
+ =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+
+ #header-area{
+ 	overflow: hidden;
+ }
+ .header-top{
+ 	
+ 	background: #17c1a4;
+ }
+ .header-top-1{
+ 	padding: 10px 0;
+ }
+ .social{}
+ .social ul{
+ 	display: flex;
+ 	justify-content: space-between;
+ }
+ .social ul li{
+ 	position: relative;
+ }
+ .social ul li a{
+ 	display: block;
+ 	font-size: 25px;
+ 	background: transparent;
+ 	padding: 5px;
+ 	color: #000;
+ 	transition: .5s;
+ }
+
+.social ul li a:hover{
+	color: orange;
+	transform: scale(1.1)
+}
+
+
+/*************** search css ********/
+ .search{}
+ .search-bar{
+ 	position: relative;
+ 	background: #fff;
+ 	padding: 5px;
+ 	border-radius: 5px;
+ }
+ .search-bar input{
+ 	background: transparent;
+ 	width: 100%;
+ 	border: none;
+ 	box-sizing: border-box;
+
+ }
+ .search-bar input:focus{
+ 	outline: 0;
+ }
+ .search-bar button{
+ 	background: transparent;
+ 	border: none;
+ 	position: absolute;
+ 	top: 50%;
+ 	right: 10px;
+ 	transform: translateY(-50%);
+ }
+ .Mobile-serch-icon{
+ 	display: none;
+ }
+ /*-------------------- header-top-2 ---------*/
+ .header-top-2{}
+ .logo{
+ 	padding-top: 5px;
+ 	font-family: 'Ultra', serif;
+ }
+ .logo a{
+ 	display: block;
+ 	color: #000;
+ 	padding: 10px 0;
+ 	font-size: 24px;
+ }
+ .logo img:hover{
+ 	transform: scale(1.1);
+ }
+ .menu{
+ 	z-index: 1;
+ 	font-family: 'Roboto', sans-serif;
+ }
+ .menu ul{
+ 	display: flex;
+ 	justify-content: flex-end;
+ }
+ .menu ul li{
+ 	white-space: nowrap;
+ }
+ .menu ul li a{
+ 	display: block;
+ 	text-transform: uppercase;
+ 	font-weight: 800;
+ 	font-size: 20px;
+ 	color: #000;
+ 	padding: 15px 10px;
+ 	font-family: 'Roboto', sans-serif;
+ 	transition: all .5s;
+ }
+ .menu ul li a:hover{
+ 	color: #fff;
+ 	
+ }
+ 
+ .menu-icon{
+ 	display: none;
+ }
+
+.header-bottom{
+	
+}
+.bottom-header a.btn-own{
+	color: #fff;
+	text-transform: uppercase;
+	background: #ff00ff;
+	padding: 10px 30px;
+	display: inline-block;
+	position: absolute;
+	bottom: 15%;
+	left: 45%;
+
+
+}
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+ 		Services CSS
+ =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+ .service-area{
+ 	background: #17C1A4;
+ 	padding: 85px 0;
+ 	overflow: hidden;
+ }
+ .heading-title{
+ 	width: 50%;
+ 	margin: 0 auto;
+ 	text-align: center;
+ }
+ .heading-title h2{
+ 	color: #fff;
+ 	position: relative;
+ 	text-transform: uppercase;
+ 	letter-spacing: 2.5px;
+ }
+ .heading-title h2:after{
+ 	content: '';
+ 	display: block;
+ 	width: 90px;
+ 	height: 4px;
+ 	background: #14a58c;
+ 	position: absolute;
+ 	bottom: -10px;
+ 	left: 43%;
+ }
+ .heading-title p{
+ 	color: #fff;
+ 	padding-top: 30px;
+ 	font-size: 16px;
+ }
+ .service-content{
+ 	margin-top: 50px;
+ }
+ .item{
+ 	text-align: center;
+
+ }
+ .item img{
+ 	width: 30%;
+ 	margin-top: 20px;
+ }
+ .item h5{
+ 	margin-top: 30px;
+ 	text-transform: uppercase;
+ 	padding-bottom: 20px;
+ 	color: #fff;
+ 	letter-spacing: 2.5px;
+ 	font-weight: 700;
+ }
+ .item p{
+ 	color: #fff;
+ 	width: 80%;
+ 	margin: auto;
+ }
+ /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+ 		Team CSS start
+ =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+ .team-area{
+ 	background: lightblue;
+ 	padding: 85px 0;
+ }
+ .team-area .heading-title{
+ 	width: 60%;
+ }
+ .team-area .heading-title h2{
+ 	color: #000;
+ 	text-transform: uppercase;
+ }
+ .team-area .heading-title p{
+ 	color: #000;
+ }
+.team-area .heading-title h2:after{
+ 	background: #C7D8E2;
+ }
+
+
+.team-content{
+	transition: .5s;
+	padding-top: 30px;
+}
+.team-content:hover{
+	
+}
+.team-item{
+	position: relative;
+	overflow: hidden;
+}
+.team-item img{
+	border-radius: 20px;
+	transition: .5s;
+	margin: 10px;
+}
+.team-item img:hover{
+	transform: scale(1.1);
+}
+.team-overlay{
+	background: rgba(0, 0, 0, .5);
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 20px;
+	transition: all .5s;
+
+}
+.team-item:hover .team-overlay{
+	top: 0;
+}
+.team-info{
+	text-align: center;
+}
+.team-info h5{
+	color: orange;
+	text-transform: uppercase;
+	transform: translateX(10%);
+	font-size: 17px;
+	transition: all .5s;
+}
+.team-info h5:hover{
+	color: #fff;
+}
+.team-info ul{
+	display: flex;
+	justify-content: center;
+}
+.team-info ul li{
+	padding: 0px 3px;
+
+}
+.team-info ul li a{
+	display: block;
+	color: orange;
+	font-size: 30px;
+	padding: 7px;
+	transition: .5s;
+}
+.team-info ul li a:hover{
+	color: #ddd;
+	transform: scale(1.2);
+}
+
+
+.love{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+.love a{
+	color: red;
+	font-size: 30px;
+	transition: all .5s;
+}
+.love a:hover{
+	color: orange;
+	transform: scale(1.2);
+}
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+ 		Skills  CSS start
+ =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+ .skill-area{
+ 	background: #ddd;
+ 	padding: 85px 0;
+ }
+ .skill-area .heading-title h2{
+ 	color: #000;
+ }
+ .skill-area .heading-title p{
+ 	color: #888;
+ }
+ 
+/************ plugin **********/
+ .chart{
+ 	position: relative;
+ 	width: 110px;
+ 	height: 110px;
+ 	text-align: center;
+ 	font-size: 30px;
+ 	line-height:  100px;
+ 	margin: 100px auto 15px;
+ 	
+ }
+ 
+ .chart canvas{
+ 	position: absolute;
+ 	top: 50%;
+ 	left: 50%;
+ 	transform: translate(-50%, -50%);
+ }
+.box h4{
+	color: #888;
+	padding-top: 50px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+ .chart-box{
+ 	position: relative;
+ 	width: 110px;
+ 	height: 110px;
+ 	text-align: center;
+ 	font-size: 30px;
+ 	line-height:  100px;
+ 	margin: 100px auto 15px;
+ 	
+ }
+ 
+ .chart-box canvas{
+ 	position: absolute;
+ 	top: 50%;
+ 	left: 50%;
+ 	transform: translate(-50%, -50%);
+ }
+.box h4{
+	color: #888;
+	padding-top: 50px;
+	text-align: center;
+	text-transform: uppercase;
+}
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+ 		Portfolio  CSS start
+ =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+ .portfolio-area{
+ 	background: lightblue;
+ 	padding: 85px 0;
+ }
+
+ .portfolio-content{}
+.portfolio-content img{
+	margin-bottom: 20px;
+	width: 100%;
+}
+.portfolio-buttons{
+	text-align: center;
+	padding: 30px 0;
+}
+.portfolio-buttons button{
+	background: transparent;
+	border: 1px solid #888;
+	border-radius: 10px;
+	color: #009cff;
+	padding: 10PX 25px;
+	transform: translateX(10%);
+}
+.portfolio-buttons button.portfolio-active-btn{
+	background: #00ff00;
+}
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+ 		product  CSS start
+ =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+.product-area{
+	background: #888;
+	padding: 75px 0;
+}
+.product-content{
+	box-shadow: 5px 5px 8px blue,
+				10px 10px 8px red,
+				15px 15px 8px green;
+}
+.product-item{
+	padding: 25px;
+	background: #192a56;
+	transition: all .5s;
+	position: relative;
+	border-top-left-radius: 20px
+}
+
+.product-item:hover{
+	background: #ff4757;
+	color: #fff;
+}
+.product-overlay{
+
+}
+.product-icon{
+	margin-bottom: 35px;
+}
+.product-icon i{
+	font-size: 40px;
+	color: #e84118;
+}
+.product-icon i:hover{
+	border: 1px solid #fff;
+	padding: 3px;
+}
+.product-heading{
+	margin-bottom: 40px;
+	margin-top: 30px;
+}
+.product-heading h4{
+	position: relative;
+	color: #fff;
+}
+.product-heading h4:after{
+	content: '';
+ 	display: block;
+ 	width: 50px;
+ 	height: 4px;
+ 	background: #fff;
+ 	position: absolute;
+ 	bottom: -10px;
+ 	left: 0;
+}
+.product-heading{}
+.product-text{
+	width: 70%;
+	color: #888;
+}
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+ 		review  CSS start
+ =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+
+.testimonial-area{
+	background-color: #353b48;
+	padding: 85px 0;
+	overflow: hidden;
+}
+.reviews{
+	position: relative;
+}
+.review-client{
+	width: 80%;
+	margin: 0 auto;
+}
+.reviews-image{
+	
+	
+	padding-bottom: 20px;
+	margin: 40px auto;
+}
+.reviews-image img{
+	border-radius: 20%;
+	
+
+
+}
+.reviews-text{
+	text-align: center;
+	
+}
+.reviewer{
+	text-align: center;
+
+}
+.reviewer h5{
+	font-size: 15px;
+}
+.review-star{
+	text-align: center;
+}
+.review-star ul{
+	display: flex;
+	justify-content: center;
+}
+.review-star ul li{}
+.review-star ul li a{
+	color: orange;
+}
+
+/*  -------- Owl Carousel */
+.owl-nav{
+	color: red;
+	
+}
+.owl-nav button.owl-prev{
+	position: absolute;
+	top: 0%;
+	right: 20 px;
+}
+.owl-nav button.owl-prev span{
+	font-size: 40px;
+}
+.owl-nav button.owl-next{
+	position: absolute;
+	top: 0;
+	right: 5px;
+}
+.owl-nav button.owl-next span{
+	font-size: 40px;
+}
+/* owl dots */
+.owl-dots{
+	text-align: center;
+}
+.owl-dots button.owl-dot{
+	width: 10px;
+	height: 10px;
+	background: #000;
+	margin: 5px;
+}
+.owl-dots button.owl-dot.active{
+	background: orange;
+}
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+ 		About CSS
+ =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+ .about-area{
+ 	background:#718093;
+ 	padding: 85px 0;
+ 	overflow: hidden;
+ }
+.about-content{
+	margin-top: 50px;
+}
+.about-item{
+	margin-bottom: 30px;
+}
+.about-image{}
+.about-image img{
+	
+	border-radius: 50%;
+}
+.about-text{
+	color: #fff;
+	
+}
+.about-text em{
+	width: 60%;
+	color: #ddd;
+}
+.about-text h5{
+	margin-top: 15px;
+	text-transform: uppercase;
+	font-size: 25px;
+}
+.about-text h6{
+	font-size: 18px;
+	font-weight: bold;
+	color: #000;
+}
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+ 		Contact CSS
+ =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+.contact-area{
+	background: #40739e;
+	padding: 30px 0;
+}
+.form-area{
+	width: 50%;
+	margin: 50px auto;
+}
+.user{
+	
+}
+.user input{
+	background: #ddd;
+	
+}
+.user label{
+	color: #fff;
+	font-size: 20px;
+	padding-left: 10px;
+}
+.name input{
+	width: 100%;
+}
+.msg{
+	color: #fff;
+
+}
+.msg label{
+	font-size: 20px;
+	padding-left: 10px;
+}
+.msg textarea{
+	background: #ddd;
+}
+.submit{
+	
+}
+.submit button{
+	background: #00a8ff;
+	padding: 10px 40px;
+
+}
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+ 		footer CSS
+ =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+
+footer{
+	background: #0097e6;
+
+}
+.footer-menu{}
+.footer-menu ul{
+	display: flex;
+	justify-content: center;
+}
+.footer-menu ul li{}
+.footer-menu ul li a{
+	display: block;
+	color: #fff;
+	font-weight: 700;
+	padding: 15px 20px;
+}
